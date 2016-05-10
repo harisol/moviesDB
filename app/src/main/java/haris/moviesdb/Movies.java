@@ -10,6 +10,9 @@ public class Movies {
     String rating; //(called vote_average in the api)
     String release_date;
 
+    public Movies(){
+
+    }
     public Movies(String title, String poster, String synopsis, String rating, String release_date){
         this.title = title;
         this.poster = poster;

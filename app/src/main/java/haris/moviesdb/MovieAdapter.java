@@ -2,7 +2,6 @@ package haris.moviesdb;
 
 import android.app.Activity;
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,7 +54,7 @@ public class MovieAdapter extends ArrayAdapter<Movies> {
         ImageView poster = (ImageView) convertView.findViewById(R.id.poster);
         Picasso.with(mContext)
                 .load(movies.poster)
-                .placeholder(R.mipmap.ic_launcher)
+                .placeholder(R.drawable.progress_animation)
                 .error(R.mipmap.ic_launcher)
                 .fit()
                 .centerCrop()
@@ -63,4 +62,5 @@ public class MovieAdapter extends ArrayAdapter<Movies> {
 
         return convertView;
     }
+
 }

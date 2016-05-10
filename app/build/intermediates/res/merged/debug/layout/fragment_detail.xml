@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/d_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/movtitle"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:padding="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="The Hunger Games: Mockingjay Part 1"/>
+
+    <ImageView
+        android:id="@+id/d_image"
+        android:layout_below="@id/d_title"
+        android:layout_width="130dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <TextView
+        android:id="@+id/d_release"
+        android:layout_below="@id/d_title"
+        android:layout_toRightOf="@id/d_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="2015"/>
+
+    <TextView
+        android:id="@+id/d_duration"
+        android:layout_below="@id/d_release"
+        android:layout_toRightOf="@id/d_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:text="120min"/>
+
+    <TextView
+        android:id="@+id/d_rating"
+        android:layout_below="@id/d_duration"
+        android:layout_toRightOf="@id/d_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:text="8.9/10"/>
+
+    <TextView
+        android:id="@+id/d_synopsis"
+        android:layout_below="@id/d_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity."/>
+
+</RelativeLayout>
+
+</ScrollView>

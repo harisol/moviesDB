@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Programming\\Android\\MoviesDB\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\Programming\\Android\\MoviesDB\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Android Kejar\\MoviesDB\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\Android Kejar\\MoviesDB\\app\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]

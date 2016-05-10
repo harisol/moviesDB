@@ -1,10 +1,14 @@
 [
     {
-        "merged": "D:\\Android Kejar\\MoviesDB\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Android Kejar\\MoviesDB\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\Programming\\Android\\MoviesDB\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Programming\\Android\\MoviesDB\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\git\\MoviesDB\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "D:\\git\\MoviesDB\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android Kejar\\MoviesDB\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android Kejar\\MoviesDB\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]
